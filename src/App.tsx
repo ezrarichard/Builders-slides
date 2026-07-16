@@ -923,30 +923,30 @@ export default function App() {
       </Slide>
 
       {/* 6 — Mission */}
-      <Slide nav="Mission" center notes="The mission broadens the market from local micro businesses to global enterprises.">
-        <Background />
-        <SlideTitle
-          kicker="Mission"
-          title={<>Make software development<br /><span style={gradientText}>available to every business.</span></>}
-          body={<span>From a neighbourhood bakery to a multinational company.</span>}
-          align="center"
-        />
-        <Reveal>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr auto 1fr', gap: 28, alignItems: 'center', maxWidth: 900, margin: '42px auto 0' }}>
-            <GlassCard style={{ padding: 28, textAlign: 'center' }} accent={colors.amber}>
-              <Icon name="store" size={64} color={colors.amber} />
-              <div style={{ fontSize: 24, fontWeight: 850, marginTop: 14 }}>Local Bakery</div>
-              <div style={{ color: colors.muted, marginTop: 6 }}>Website · orders · loyalty</div>
-            </GlassCard>
-            <div style={{ fontSize: 44, color: colors.blue }}>→</div>
-            <GlassCard style={{ padding: 28, textAlign: 'center' }} accent={colors.violet}>
-              <Icon name="building" size={64} color={colors.violet} />
-              <div style={{ fontSize: 24, fontWeight: 850, marginTop: 14 }}>Global Enterprise</div>
-              <div style={{ color: colors.muted, marginTop: 6 }}>Platforms · automation · AI</div>
-            </GlassCard>
-          </div>
-        </Reveal>
-      </Slide>
+<Slide nav="Mission" center notes="The mission broadens the market from local micro businesses to global enterprises.">
+  <Background />
+  <SlideTitle
+    kicker="MISSION"
+    title={<>Make software development<br /><span style={gradientText}>available to every business.</span></>}
+    body={<span>From a neighbourhood bakery to a multinational company.</span>}
+    align="center"
+  />
+  <Reveal>
+    <div style={{ display: 'grid', gridTemplateColumns: '1fr auto 1fr', gap: 28, alignItems: 'center', maxWidth: 900, margin: '42px auto 0' }}>
+      <GlassCard style={{ padding: 28, textAlign: 'center' }} accent={colors.amber}>
+        <Icon name="store" size={64} color={colors.amber} />
+        <div style={{ fontSize: 24, fontWeight: 850, marginTop: 14 }}>Local Bakery</div>
+        <div style={{ color: colors.muted, marginTop: 6 }}>Website · orders · loyalty</div>
+      </GlassCard>
+      <div style={{ fontSize: 44, color: colors.blue, transform: 'scale(1.2)' }}>→</div>
+      <GlassCard style={{ padding: 28, textAlign: 'center' }} accent={colors.violet}>
+        <Icon name="building" size={64} color={colors.violet} />
+        <div style={{ fontSize: 24, fontWeight: 850, marginTop: 14 }}>Global Enterprise</div>
+        <div style={{ color: colors.muted, marginTop: 6 }}>Platforms · automation · AI</div>
+      </GlassCard>
+    </div>
+  </Reveal>
+</Slide>
 
       {/* 7 — Core philosophy */}
       <Slide nav="Core philosophy" center notes="Use this as the memorable three-part mental model.">
