@@ -749,19 +749,42 @@ export default function App() {
         notes="Open with the long-term vision: Builders is the platform that lets CubicleTech repeatedly create software products."
       >
         <Background />
-        <div style={{ position: 'relative', display: 'grid', gridTemplateColumns: '1.05fr .95fr', gap: 'clamp(30px,5vw,74px)', alignItems: 'center', width: '100%' }}>
+        <div style={{ 
+          position: 'relative', 
+          display: 'grid', 
+          gridTemplateColumns: '1.05fr .95fr', 
+          gap: 'clamp(30px,5vw,74px)', 
+          alignItems: 'center', 
+          width: '100%' 
+        }}>
           <Reveal>
             <div>
               <Kicker>CubicleTech LLP · Founding Team</Kicker>
-              <div style={{ fontSize: 'clamp(70px,11vw,150px)', fontWeight: 900, letterSpacing: '-.075em', lineHeight: .82, ...gradientText }}>
+              <div style={{ 
+                fontSize: 'clamp(70px,11vw,150px)', 
+                fontWeight: 900, 
+                letterSpacing: '-.075em', 
+                lineHeight: .82, 
+                ...gradientText 
+              }}>
                 BUILDERS
               </div>
-              <h1 style={{ fontSize: 'clamp(28px,4vw,52px)', lineHeight: 1.04, letterSpacing: '-.045em', margin: '22px 0 18px', color: colors.ink }}>
+              <h1 style={{ 
+                fontSize: 'clamp(28px,4vw,52px)', 
+                lineHeight: 1.04, 
+                letterSpacing: '-.045em', 
+                margin: '22px 0 18px', 
+                color: '#e0e7ff' 
+              }}>
                 The AI Software Factory
               </h1>
-              <p style={{ ...subtitleStyle, maxWidth: 650 }}>
+              <p style={{ 
+                ...subtitleStyle, 
+                maxWidth: 650, 
+                color: '#c7d2fe' 
+              }}>
                 Build the platform once.<br />
-                <strong style={{ color: colors.ink }}>Build unlimited software products forever.</strong>
+                <strong style={{ color: '#e0e7ff' }}>Build unlimited software products forever.</strong>
               </p>
             </div>
           </Reveal>
@@ -805,7 +828,11 @@ export default function App() {
       {/* 3 — Why Builders */}
       <Slide nav="Why Builders" notes="Traditional development requires specialists, handoffs, budget, and time. Builders compresses the operating model.">
         <Background />
-        <SlideTitle kicker="The transformation" title={<>Traditional software is <span style={{ color: colors.rose }}>heavy.</span><br />Builders makes it <span style={gradientText}>compounding.</span></>} align="center" />
+        <SlideTitle 
+          kicker="The transformation" 
+          title={<>Traditional software is <span style={{ color: colors.rose }}>heavy.</span><br />Builders makes it <span style={gradientText}>compounding.</span></>} 
+          align="center" 
+        />
         <Reveal>
           <div style={{ maxWidth: 980, margin: '34px auto 0' }}>
             <Comparison
