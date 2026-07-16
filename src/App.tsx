@@ -43,7 +43,8 @@ const smallGlass: CSSProperties = {
 const gradientText: CSSProperties = {
   background: `linear-gradient(135deg, ${colors.blue}, ${colors.violet} 58%, ${colors.cyan})`,
   WebkitBackgroundClip: 'text',
-  color: 'transparent',
+  WebkitTextFillColor: 'transparent',   // Makes the text show the gradient
+  color: '#ffffff',                     // Fallback for non-webkit browsers
 };
 
 const pageGlow: CSSProperties = {
