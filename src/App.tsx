@@ -25,6 +25,12 @@ const colors = {
   line: 'rgba(15,23,42,0.10)',
 };
 
+const darkBg: CSSProperties = {
+  background: 'linear-gradient(145deg, #0a0c18, #05060f)',
+  position: 'relative',
+  overflow: 'hidden',
+};
+
 const glass: CSSProperties = {
   border: `1px solid ${colors.line}`,
   background: colors.surface,
@@ -41,10 +47,11 @@ const smallGlass: CSSProperties = {
 };
 
 const gradientText: CSSProperties = {
-  background: `linear-gradient(135deg, ${colors.blue}, ${colors.violet} 58%, ${colors.cyan})`,
+  background: `linear-gradient(90deg, #4f7cff, #a855f7 45%, #22d3ee)`,
   WebkitBackgroundClip: 'text',
-  WebkitTextFillColor: 'transparent',   // Makes the text show the gradient
-  color: '#ffffff',                     // Fallback for non-webkit browsers
+  WebkitTextFillColor: 'transparent',
+  color: '#ffffff',
+  fontWeight: 700,
 };
 
 const pageGlow: CSSProperties = {
