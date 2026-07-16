@@ -51,7 +51,7 @@ const pageGlow: CSSProperties = {
   inset: 0,
   pointerEvents: 'none',
   background:
-    'radial-gradient(circle at 18% 18%, rgba(37,99,235,.13), transparent 30%), radial-gradient(circle at 82% 26%, rgba(124,58,237,.12), transparent 31%), radial-gradient(circle at 50% 90%, rgba(6,182,212,.08), transparent 34%)',
+    'radial-gradient(circle at 18% 18%, rgba(37,99,235,.13), transparent 30%), radial-gradient(circle at 82% 26%, rgba(124,58,237,.12), transparent 31%), radial-gradient(circle at 50% 90%, rgba(6,182,212,.08), transparent 34%), #F8FAFC',
 };
 
 const dotGrid: CSSProperties = {
